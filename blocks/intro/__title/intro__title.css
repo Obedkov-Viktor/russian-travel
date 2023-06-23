@@ -8,3 +8,18 @@
     margin-top: 92px;
     margin-bottom: 40px;
 }
+
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    .intro__title{
+        margin-bottom: 37px;
+        
+      }
+}
+
+@media screen and (max-width: 320px) {}
+
