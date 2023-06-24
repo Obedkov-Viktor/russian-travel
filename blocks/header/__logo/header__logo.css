@@ -19,5 +19,9 @@
 }
 
 @media screen and (max-width: 320px) {
-
+    .header__logo{
+        background-image: url(../../../images/__logo-mob.svg);
+        margin-left: 15px;
+        margin-top: 15px;
+    }
 }
