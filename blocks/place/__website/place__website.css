@@ -2,10 +2,21 @@
     align-self: end;
 }
 
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+    .place__website {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+}
 
 @media screen and (max-width: 320px) {
     .place__website {
-        margin-left: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        padding-left: 16px;
     }
+
 }

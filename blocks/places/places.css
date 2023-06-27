@@ -15,14 +15,14 @@
 
 @media screen and (max-width: 768px) {
   .places{
-    padding: 95px 0 0 25px;
-    gap: 65px;
+    padding: 97px 0 0 23px;
+    row-gap: 70px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .places{
-    padding: 64px 0 0 0;
-    gap: 65px;
+    padding: 60px 0 0 0;
+    row-gap: 73px;
   }
 }

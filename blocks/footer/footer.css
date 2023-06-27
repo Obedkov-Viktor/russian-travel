@@ -4,6 +4,7 @@
     justify-content: space-between;
     margin: 0 auto;
     max-width: 1184px;
+    padding: 24px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -15,12 +16,14 @@
 @media screen and (max-width: 768px) {
     .footer{
         max-width: 720px;
+        padding: 0 0 24px 0;
     }
 }
 
 @media screen and (max-width: 320px) {
     .footer{
         flex-direction: column;
-        height: 305px;
+        padding: 0;
+        gap: 47px;
     }
 }
