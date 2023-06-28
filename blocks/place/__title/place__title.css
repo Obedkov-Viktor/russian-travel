@@ -9,9 +9,7 @@
     margin: 0;
 }
 
-@media screen and (max-width: 1024px) {
-
-}
+@media screen and (max-width: 1024px) {}
 
 @media screen and (max-width: 768px) {
     .place__title {
@@ -21,11 +19,17 @@
     }
 }
 
+@media screen and (max-width: 653px) {
+    .place__title {
+        max-width: 550px;
+        padding-left: 24px;
+    }
+}
+
 @media screen and (max-width: 320px) {
-    .place__title{
+    .place__title {
         font-size: 32px;
         max-width: 288px;
         padding-left: 16px;
     }
 }
-

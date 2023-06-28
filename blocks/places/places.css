@@ -2,9 +2,9 @@
     padding: 92px 148px 0;
     max-width: 984px;
     margin: 0 auto;
-    display: grid;
+    /* display: grid;
     grid-template-columns: minmax(min-content, max-content);
-    gap: 80px;
+    gap: 80px; */
 }
 
 @media screen and (max-width: 1024px) {
@@ -17,6 +17,12 @@
   .places{
     padding: 97px 0 0 23px;
     row-gap: 70px;
+  }
+}
+@media screen and (max-width: 653px) {
+  .places { 
+    padding: 64px 0 0 0 ;
+
   }
 }
 

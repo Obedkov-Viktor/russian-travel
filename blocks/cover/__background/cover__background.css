@@ -13,11 +13,15 @@
     margin: 0;
 }
 
-@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 1024px) {
+    .cover__background{
+        min-height: 645px;
+    }
+}
 
 @media screen and (max-width: 768px) {
     .cover__background {
-        min-height: 656px;
+        min-height: 480px;
     }
 }
 

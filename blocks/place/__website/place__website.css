@@ -1,5 +1,14 @@
 .place__website {
     align-self: end;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__website {
+        gap: 5px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -9,6 +18,11 @@
         gap: 15px;
     }
 
+}
+@media screen and (max-width: 653px) {
+    .place__website  {
+       padding-left: 24px;
+    }
 }
 
 @media screen and (max-width: 320px) {
