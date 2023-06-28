@@ -11,6 +11,12 @@
 
 }
 
+@media screen and (max-width: 653px) {
+    .footer__links{
+        flex-wrap: wrap;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .footer__links{
         flex-direction: column;

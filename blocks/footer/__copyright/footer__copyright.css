@@ -2,3 +2,10 @@
     margin: 0 auto;
     letter-spacing: 0.02rem;
 }
+
+
+@media screen and (max-width: 653px) {
+    .footer__copyright{
+        padding-top: 24px;
+    }
+}
