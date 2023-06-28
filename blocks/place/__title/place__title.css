@@ -23,6 +23,8 @@
     .place__title {
         max-width: 550px;
         padding-left: 24px;
+        font-size: 32px;
+        line-height: 35px;
     }
 }
 
