@@ -38,7 +38,7 @@
     .place__paragraph {
         font-size: 16px;
         max-width: 288px;
-        padding-left: 0;
+        padding-left: 16px;
     }
 
     .place__paragraph:last-of-type {
