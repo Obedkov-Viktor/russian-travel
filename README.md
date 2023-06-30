@@ -15,7 +15,7 @@
 
 **Как посмотреть проект?**
 
-    1. Ссылка на страницу проекта: (https://obedkov-viktor.github.io/russian-travel/ "Путешествие по России")
+    1. Ссылка на страницу проекта: https://obedkov-viktor.github.io/russian-travel/
 
     2. Либо же склонируйте репозиторий: git@github.com:Obedkov-Viktor/russian-travel.git
 
