@@ -28,13 +28,20 @@
     }
 }
 
+@media screen and (min-width: 321px) and (max-width: 483px) {
+    .place__paragraph {
+        max-width: 288px;
+    }
+}
+
 @media screen and (max-width: 320px) {
-    .place__paragraph{
+    .place__paragraph {
         font-size: 16px;
         max-width: 288px;
         padding-left: 0;
     }
-    .place__paragraph:last-of-type{
+
+    .place__paragraph:last-of-type {
         padding-bottom: 0px;
     }
 }
