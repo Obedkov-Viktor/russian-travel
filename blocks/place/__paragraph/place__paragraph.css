@@ -32,5 +32,9 @@
     .place__paragraph{
         font-size: 16px;
         max-width: 288px;
+        padding-left: 0;
+    }
+    .place__paragraph:last-of-type{
+        padding-bottom: 0px;
     }
 }
